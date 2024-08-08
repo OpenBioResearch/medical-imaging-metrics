@@ -3,17 +3,17 @@
 **Project Overview**
 
 ![thumbnail-image](https://github.com/user-attachments/assets/8b856272-2931-4b96-93f4-0f55a9762ad1)
+Dicom image for Pancreas-CT TCIA collection (publicly accessible)
 
-Determine intensity statistics (mean, mediuan, std) for DIDCOM images, .....
-The Cancer Imaging Archive (TCIA) Pancreas-CT dataset is publicly accessible.
+Determine intensity statistics (mean, mediuan, std) for DIDCOM images, 
 
 ## Installation and Usage
 
 **Clone the repository:**
 
     ```bash
-    git clone https://github.com/OpenBioResearch/idc-imaging.git
-    cd idc-imaging
+    git clone https://github.com/OpenBioResearch/medical-imaging-metrics.git
+    cd medical-imaging-metrics
     ```
 
 **Create a virtual environment (optional but recommended):**
@@ -30,10 +30,7 @@ The Cancer Imaging Archive (TCIA) Pancreas-CT dataset is publicly accessible.
     ```
 
 **Run the python scriptS:**
-    idc_collections_filter.py
-    idc_metadata_match.py
-    idc_nonduplicates_metadata.py
-
+    vscode_intensity_dicom_stats.py
 
 **License:** 
 
