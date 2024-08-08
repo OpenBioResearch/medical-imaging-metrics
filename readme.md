@@ -2,15 +2,10 @@
 
 **Project Overview**
 
-This project integrates with the Imaging Data Commons (IDC) API to facilitate the retrieval and filtering of medical imaging collections. It includes IDC collections retrieval, a Flask web application for dynamic filtering based on cancer type and image type, and DICOM metadata extraction from an AWS S3 bucket.
+![thumbnail-image](https://github.com/user-attachments/assets/8b856272-2931-4b96-93f4-0f55a9762ad1)
 
-
-https://github.com/user-attachments/assets/f75fbbee-7803-47bd-a584-a0ffd184bfb6
-
-
-**No AWS Account Required:** 
-
-The Image Data Commons (IDC)  dataset is publicly accessible, so an AWS account is not required.
+Determine intensity statistics (mean, mediuan, std) for DIDCOM images, .....
+The Cancer Imaging Archive (TCIA) Pancreas-CT dataset is publicly accessible.
 
 ## Installation and Usage
 
@@ -39,15 +34,7 @@ The Image Data Commons (IDC)  dataset is publicly accessible, so an AWS account 
     idc_metadata_match.py
     idc_nonduplicates_metadata.py
 
-**Run the Flask app**
-   cd flask_app
-   python app.py
-   Open a web browser and go to http://127.0.0.1:5000/ to see the filtering interface.
-
-**Outputs**
-    collections.json
-    dicom_metadata.csv
 
 **License:** 
 
-Scripts use data from the National Cancer Institute Imaging Data Commons (IDC) Collections, which are distributed under the Creative Commons Attribution (CC BY) license.
+TCIA Pancreas-CT collection images are licensed under a Creative Commons Attribution 3.0 Unported License (https://creativecommons.org/licenses/by/3.0/).
