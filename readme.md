@@ -3,9 +3,14 @@
 **Project Overview**
 
 ![thumbnail-image](https://github.com/user-attachments/assets/8b856272-2931-4b96-93f4-0f55a9762ad1)
+
 Dicom image for Pancreas-CT TCIA collection (publicly accessible)
 
-Determine intensity statistics (mean, mediuan, std) for DIDCOM images, 
+Determine intensity statistics for DIDCOM images, 
+
+
+https://github.com/user-attachments/assets/4461ebb3-f387-4a55-bdee-82a2aa66ba8d
+
 
 ## Installation and Usage
 
