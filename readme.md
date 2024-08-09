@@ -8,9 +8,7 @@ Dicom image for Pancreas-CT TCIA collection (publicly accessible)
 
 Determine intensity statistics for DIDCOM images, 
 
-
-https://github.com/user-attachments/assets/4461ebb3-f387-4a55-bdee-82a2aa66ba8d
-
+https://github.com/user-attachments/assets/e7bb944f-c744-4979-ab13-d099e7e03c5f
 
 ## Installation and Usage
 
