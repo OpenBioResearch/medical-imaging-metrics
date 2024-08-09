@@ -39,10 +39,10 @@ https://github.com/user-attachments/assets/e7bb944f-c744-4979-ab13-d099e7e03c5f
     ```
 
 **Run the python scriptS:**
- To run the vscode_intensity_dicom_stats.py script, use the following command:
 
 ```bash
 python vscode_intensity_dicom_stats.py <S3_BUCKET_NAME>
+ ```
 
 To run the dicom_s3_visualizer.ipynb script, launch the jupyter notebook and it will request your S3 bucket name.
 
