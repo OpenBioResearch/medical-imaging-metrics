@@ -6,13 +6,17 @@
 
 Dicom image for Pancreas-CT TCIA collection (publicly accessible)
 
-Determine intensity statistics for DIDCOM images, 
+Interactive DICOM S3 Visualizer: File: dicom_s3_visualizer.ipynb
+    This Jupyter Notebook provides an interactive visualization tool for DICOM images stored in an Amazon S3 bucket. Utilizing ipywidgets for a user-friendly interface, the notebook allows users to select an S3 bucket and view the corresponding DICOM images. It’s intended for those wanting a preliminary quick visualization without downloading them locally.
+
+DICOM Intensity Statistics: vscode_intensity_dicom_stats.py
+    This python script calculates intensity statistics (mean, median, and standard deviation) across DICOM files in an S3 bucket by exracting pixel data to generate quantitative insights.
+
+   
 
 https://github.com/user-attachments/assets/e7bb944f-c744-4979-ab13-d099e7e03c5f
 
 ## Installation and Usage
-
-The S3 bucket name is a parameter that needs to be supplied when running the scripts (.i.e. )
 
 **Clone the repository:**
 
@@ -35,7 +39,12 @@ The S3 bucket name is a parameter that needs to be supplied when running the scr
     ```
 
 **Run the python scriptS:**
-    vscode_intensity_dicom_stats.py
+ To run the vscode_intensity_dicom_stats.py script, use the following command:
+
+```bash
+python vscode_intensity_dicom_stats.py <S3_BUCKET_NAME>
+
+To run the dicom_s3_visualizer.ipynb script, launch the jupyter notebook and it will request your S3 bucket name.
 
 **License:** 
 
