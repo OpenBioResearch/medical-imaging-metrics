@@ -14,6 +14,8 @@ https://github.com/user-attachments/assets/4461ebb3-f387-4a55-bdee-82a2aa66ba8d
 
 ## Installation and Usage
 
+The S3 bucket name is a parameter that needs to be supplied when running the scripts (.i.e. )
+
 **Clone the repository:**
 
     ```bash
