@@ -3,14 +3,15 @@
 **Project Overview**
 
 ![thumbnail-image](https://github.com/user-attachments/assets/8b856272-2931-4b96-93f4-0f55a9762ad1)
-
 Dicom image for Pancreas-CT TCIA collection (publicly accessible)
 
-Interactive DICOM S3 Visualizer: File: dicom_s3_visualizer.ipynb
+This project includes Python scripts that enhance the capability to view and analyze medical imaging data stored in Amazon S3, specifically focusing on DICOM files. It provides:
+
+Interactive Visualization: 
     This Jupyter Notebook provides an interactive visualization tool for DICOM images stored in an Amazon S3 bucket. Utilizing ipywidgets for a user-friendly interface, the notebook allows users to select an S3 bucket and view the corresponding DICOM images. It’s intended for those wanting a preliminary quick visualization without downloading them locally.
 
-DICOM Intensity Statistics: vscode_intensity_dicom_stats.py
-    This python script calculates intensity statistics (mean, median, and standard deviation) across DICOM files in an S3 bucket by exracting pixel data to generate quantitative insights.
+DICOM Intensity Statistics: 
+    This Jupyter Notebook provides an interactive visualization tool for DICOM images stored in an Amazon S3 bucket. Utilizing ipywidgets for a user-friendly interface, the notebook allows users to select an S3 bucket and view the corresponding DICOM images. It’s intended for those wanting a preliminary quick visualization without downloading them locally.
 
 ## Installation and Usage
 
@@ -23,16 +24,16 @@ DICOM Intensity Statistics: vscode_intensity_dicom_stats.py
 
 **Create a virtual environment (optional but recommended):**
 
-    ```bash 
-    python -m venv .venv
-    source .venv/bin/activate  # git bash
-    ```
+```bash 
+python -m venv .venv
+source .venv/bin/activate  # git bash
+```
 
 **Install the Python dependencies:**
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+```bash
+pip install -r requirements.txt
+```
 
 **Run the python scripts:**
 
