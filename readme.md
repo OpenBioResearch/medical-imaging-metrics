@@ -17,10 +17,10 @@ DICOM Intensity Statistics:
 
 **Clone the repository:**
 
-    ```bash
-    git clone https://github.com/OpenBioResearch/medical-imaging-metrics.git
-    cd medical-imaging-metrics
-    ```
+```bash
+git clone https://github.com/OpenBioResearch/medical-imaging-metrics.git
+cd medical-imaging-metrics
+```
 
 **Create a virtual environment (optional but recommended):**
 
