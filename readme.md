@@ -52,3 +52,6 @@ TCIA Pancreas-CT collection images are licensed under a Creative Commons Attribu
 **Video**
 
 https://github.com/user-attachments/assets/e7bb944f-c744-4979-ab13-d099e7e03c5f
+
+**TO DO**
+Revise state management for jupyter notebook.
