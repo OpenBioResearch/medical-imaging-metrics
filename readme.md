@@ -1,6 +1,6 @@
 # medical-imaging-metrics
 
-**Project Overview**
+## Project Overview
 
 ![thumbnail-image](https://github.com/user-attachments/assets/8b856272-2931-4b96-93f4-0f55a9762ad1)
 Dicom image for Pancreas-CT TCIA collection (publicly accessible)
@@ -14,6 +14,8 @@ DICOM Intensity Statistics:
     This Jupyter Notebook provides an interactive visualization tool for DICOM images stored in an Amazon S3 bucket. Utilizing ipywidgets for a user-friendly interface, the notebook allows users to select an S3 bucket and view the corresponding DICOM images. It’s intended for those wanting a preliminary quick visualization without downloading them locally.
 
 ## Installation and Usage
+
+This project was developed and tested using Python 3.12.5.
 
 **Clone the repository:**
 
