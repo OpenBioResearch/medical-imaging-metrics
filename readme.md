@@ -11,7 +11,7 @@ Interactive Visualization:
     This Jupyter Notebook provides an interactive visualization tool for DICOM images stored in an Amazon S3 bucket. Utilizing ipywidgets for a user-friendly interface, the notebook allows users to select an S3 bucket and view the corresponding DICOM images. It’s intended for those wanting a preliminary quick visualization without downloading them locally.
 
 DICOM Intensity Statistics: 
-    This Jupyter Notebook provides an interactive visualization tool for DICOM images stored in an Amazon S3 bucket. Utilizing ipywidgets for a user-friendly interface, the notebook allows users to select an S3 bucket and view the corresponding DICOM images. It’s intended for those wanting a preliminary quick visualization without downloading them locally.
+    This Python script is designed to calculate intensity statistics (mean, median, and standard deviation) for DICOM images stored in a specified Amazon S3 bucket. It reads the pixel data from each DICOM file, computes the statistics, and saves the results to a CSV file.
 
 ## Installation and Usage
 
